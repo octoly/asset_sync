@@ -54,7 +54,7 @@ module AssetSync
       self.extensions_to_gzip = 'css,js'
       self.manifest = false
       self.fail_silently = false
-      self.log_silently = true
+      self.log_silently = false
       self.always_upload = []
       self.ignored_files = []
       self.custom_headers = {}
